@@ -1,16 +1,10 @@
 import React from "react";
 import "./App.css";
 
-import Header from "./Header";
+import Home from "./pages/Home/index";
 
 function App() {
-  return (
-    <div>
-      <Header title="Hello Words" />
-
-      <h1>Conteúdo da aplicação</h1>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
